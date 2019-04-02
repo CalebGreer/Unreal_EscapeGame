@@ -1,0 +1,933 @@
+﻿Log file open, 04/02/19 09:09:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: EscapeGame
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.387343
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.099s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -EpicPortal -epicusername=Kadraza -epicuserid=83820e60d97542cd9c9707daeed00048 -epiclocale=en-US
+LogInit: Base Directory: D:/Games/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Engine.ini]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Engine.ini]
+[2019.04.02-13.09.18:005][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Engine.ini]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Engine.ini]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.02-13.09.18:005][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Engine.ini]
+[2019.04.02-13.09.18:005][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Engine.ini]
+[2019.04.02-13.09.18:010][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.02-13.09.18:010][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.02-13.09.18:010][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.02-13.09.18:010][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.02-13.09.18:020][  0]LogHAL: Display: Platform has ~ 16 GB [17138212864 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.02-13.09.18:020][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.02-13.09.18:020][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.02-13.09.18:020][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Scalability.ini]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.02-13.09.18:021][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.02-13.09.18:021][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Config/Windows/Engine.ini]
+[2019.04.02-13.09.18:021][  0]LogInit: Computer: KADRAZA-PC
+[2019.04.02-13.09.18:021][  0]LogInit: User: caleb
+[2019.04.02-13.09.18:021][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.04.02-13.09.18:021][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.02-13.09.18:022][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.04.02-13.09.18:022][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.02-13.09.18:022][  0]LogMemory: Process Physical Memory: 103.38 MB used, 103.38 MB peak
+[2019.04.02-13.09.18:022][  0]LogMemory: Process Virtual Memory: 86.32 MB used, 86.32 MB peak
+[2019.04.02-13.09.18:022][  0]LogMemory: Physical Memory: 9542.07 MB used,  6802.20 MB free, 16344.27 MB total
+[2019.04.02-13.09.18:022][  0]LogMemory: Virtual Memory: 4662.29 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.04.02-13.09.18:034][  0]LogInit: Using OS detected language (en-US).
+[2019.04.02-13.09.18:034][  0]LogInit: Using OS detected locale (en-CA).
+[2019.04.02-13.09.18:035][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.02-13.09.18:368][  0]LogStreaming: Display: Took  0.335s to InitEngineTextLocalization.
+[2019.04.02-13.09.18:368][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.02-13.09.18:391][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.02-13.09.18:391][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.02-13.09.18:654][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.02-13.09.18:655][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.02-13.09.18:753][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.04.02-13.09.18:753][  0]LogD3D11RHI:       11127/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.04.02-13.09.18:755][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.02-13.09.18:755][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.02-13.09.18:755][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.02-13.09.18:765][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.02-13.09.18:765][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.02-13.09.18:765][  0]LogWindows: EnumDisplayDevices:
+[2019.04.02-13.09.18:765][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.04.02-13.09.18:765][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2019.04.02-13.09.18:765][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.04.02-13.09.18:765][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.04.02-13.09.18:766][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.02-13.09.18:766][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.04.02-13.09.18:766][  0]LogD3D11RHI:   Driver Version: 416.94 (internal:25.21.14.1694, unified:416.94)
+[2019.04.02-13.09.18:766][  0]LogD3D11RHI:      Driver Date: 11-12-2018
+[2019.04.02-13.09.18:766][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2019.04.02-13.09.18:800][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.02-13.09.18:823][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.02-13.09.19:218][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.02-13.09.19:227][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.02-13.09.19:237][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.02-13.09.19:246][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.02-13.09.19:256][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.02-13.09.19:264][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.02-13.09.19:275][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.02-13.09.19:284][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.02-13.09.19:289][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-13.09.19:349][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.02-13.09.19:404][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.02-13.09.19:404][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.02-13.09.19:420][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.02-13.09.19:421][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.02-13.09.19:429][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.02-13.09.19:438][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.02-13.09.19:447][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.02-13.09.19:457][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.02-13.09.19:490][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.02-13.09.19:490][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.02-13.09.19:490][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.02-13.09.19:524][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Intermediate/Shaders/WorkingDirectory/26892/).
+[2019.04.02-13.09.19:524][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/caleb/AppData/Local/Temp/UnrealShaderWorkingDir/67C5A63449CD0DB05DC65191A294A164/'.
+[2019.04.02-13.09.19:525][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.02-13.09.19:525][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.02-13.09.19:525][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.02-13.09.19:993][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.02-13.09.20:048][  0]LogDerivedDataCache: Loaded boot cache 0.05s 86MB C:/Users/caleb/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.02-13.09.20:048][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/caleb/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.02-13.09.20:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.02-13.09.20:048][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.02-13.09.20:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.02-13.09.20:048][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.02-13.09.20:061][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.02-13.09.20:061][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.02-13.09.20:061][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.02-13.09.20:073][  0]LogDerivedDataCache: Using Local data cache path C:/Users/caleb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.02-13.09.20:073][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.02-13.09.20:073][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.02-13.09.20:091][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.02-13.09.20:093][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.02-13.09.20:093][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.02-13.09.20:175][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2019.04.02-13.09.20:471][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.02-13.09.20:589][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.02-13.09.20:591][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.02-13.09.20:591][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.02-13.09.20:591][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.02-13.09.20:591][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.02-13.09.20:601][  0]LogNetVersion: EscapeGame 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1525800329)
+[2019.04.02-13.09.21:260][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.242713 seconds
+[2019.04.02-13.09.21:266][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.02-13.09.21:266][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.04.02-13.09.21:266][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.02-13.09.22:045][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.02-13.09.22:070][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.02-13.09.22:870][  0]SourceControl: Source control is disabled
+[2019.04.02-13.09.22:870][  0]SourceControl: Source control is disabled
+[2019.04.02-13.09.22:871][  0]SourceControl: Source control is disabled
+[2019.04.02-13.09.22:871][  0]SourceControl: Source control is disabled
+[2019.04.02-13.09.23:015][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.02-13.09.23:108][  0]LogOcInput: OculusInput pre-init called
+[2019.04.02-13.09.23:233][  0]LogEngine: Initializing Engine...
+[2019.04.02-13.09.23:234][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.02-13.09.23:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.02-13.09.23:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.02-13.09.23:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.02-13.09.23:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.02-13.09.23:443][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.02-13.09.23:450][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.02-13.09.23:526][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-13.09.23:544][  0]LogInit: FAudioDevice initialized.
+[2019.04.02-13.09.23:545][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.02-13.09.23:600][  0]LogDerivedDataCache: Saved boot cache 0.06s 86MB C:/Users/caleb/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.02-13.09.23:604][  0]LogInit: Texture streaming: Enabled
+[2019.04.02-13.09.23:614][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.02-13.09.23:627][  0]LogInit: Transaction tracking system initialized
+[2019.04.02-13.09.23:639][  0]BlueprintLog: New page: Editor Load
+[2019.04.02-13.09.23:735][  0]LocalizationService: Localization service is disabled
+[2019.04.02-13.09.24:496][  0]LogFileCache: Scanning file cache for directory 'D:/Game Development/Unreal_EscapeGame/EscapeGame/Content/' took 0.01s
+[2019.04.02-13.09.24:496][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.02-13.09.24:496][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.02-13.09.24:511][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.02-13.09.24:511][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.02-13.09.24:511][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.02-13.09.24:511][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.02-13.09.24:511][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.02-13.09.24:607][  0]SourceControl: Source control is disabled
+[2019.04.02-13.09.24:784][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Games/Epic Games/UE_4.21/FeaturePacks/StarterContent.upack)
+[2019.04.02-13.09.24:924][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2019.04.02-13.09.24:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2019.04.02-13.09.24:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2019.04.02-13.09.24:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2019.04.02-13.09.24:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2019.04.02-13.09.24:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2019.04.02-13.09.24:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2019.04.02-13.09.24:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2019.04.02-13.09.24:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2019.04.02-13.09.24:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2019.04.02-13.09.24:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2019.04.02-13.09.24:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2019.04.02-13.09.24:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Collapse01.uasset"
+[2019.04.02-13.09.24:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Collapse02.uasset"
+[2019.04.02-13.09.24:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2019.04.02-13.09.24:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Explosion01.uasset"
+[2019.04.02-13.09.24:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Explosion02.uasset"
+[2019.04.02-13.09.25:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2019.04.02-13.09.25:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Fire01.uasset"
+[2019.04.02-13.09.25:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2019.04.02-13.09.25:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2019.04.02-13.09.25:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2019.04.02-13.09.25:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Light01.uasset"
+[2019.04.02-13.09.25:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2019.04.02-13.09.25:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Light02.uasset"
+[2019.04.02-13.09.25:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2019.04.02-13.09.25:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Smoke01.uasset"
+[2019.04.02-13.09.25:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2019.04.02-13.09.25:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2019.04.02-13.09.25:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2019.04.02-13.09.25:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2019.04.02-13.09.25:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2019.04.02-13.09.25:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2019.04.02-13.09.25:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2019.04.02-13.09.25:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Steam01.uasset"
+[2019.04.02-13.09.25:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2019.04.02-13.09.25:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2019.04.02-13.09.25:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2019.04.02-13.09.25:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2019.04.02-13.09.25:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2019.04.02-13.09.25:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2019.04.02-13.09.25:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2019.04.02-13.09.25:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2019.04.02-13.09.25:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2019.04.02-13.09.25:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2019.04.02-13.09.25:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2019.04.02-13.09.25:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2019.04.02-13.09.25:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2019.04.02-13.09.25:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2019.04.02-13.09.25:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2019.04.02-13.09.25:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2019.04.02-13.09.25:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2019.04.02-13.09.25:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2019.04.02-13.09.25:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2019.04.02-13.09.25:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2019.04.02-13.09.25:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Maps/Minimal_Default.umap"
+[2019.04.02-13.09.25:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2019.04.02-13.09.25:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Maps/StarterMap.umap"
+[2019.04.02-13.09.25:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2019.04.02-13.09.25:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2019.04.02-13.09.25:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2019.04.02-13.09.25:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2019.04.02-13.09.25:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2019.04.02-13.09.25:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2019.04.02-13.09.25:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2019.04.02-13.09.25:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2019.04.02-13.09.25:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2019.04.02-13.09.25:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2019.04.02-13.09.25:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2019.04.02-13.09.25:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2019.04.02-13.09.25:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2019.04.02-13.09.25:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2019.04.02-13.09.25:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2019.04.02-13.09.25:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2019.04.02-13.09.25:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2019.04.02-13.09.25:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2019.04.02-13.09.25:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Glass.uasset"
+[2019.04.02-13.09.25:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2019.04.02-13.09.25:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2019.04.02-13.09.25:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2019.04.02-13.09.25:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2019.04.02-13.09.25:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2019.04.02-13.09.25:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2019.04.02-13.09.25:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2019.04.02-13.09.25:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2019.04.02-13.09.25:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2019.04.02-13.09.25:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2019.04.02-13.09.25:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2019.04.02-13.09.25:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2019.04.02-13.09.25:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2019.04.02-13.09.25:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2019.04.02-13.09.25:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2019.04.02-13.09.25:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2019.04.02-13.09.25:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2019.04.02-13.09.25:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2019.04.02-13.09.25:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2019.04.02-13.09.25:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2019.04.02-13.09.25:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2019.04.02-13.09.25:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2019.04.02-13.09.25:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2019.04.02-13.09.25:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2019.04.02-13.09.25:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2019.04.02-13.09.25:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2019.04.02-13.09.25:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/P_Explosion.uasset"
+[2019.04.02-13.09.25:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/P_Fire.uasset"
+[2019.04.02-13.09.25:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/P_Smoke.uasset"
+[2019.04.02-13.09.25:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/P_Sparks.uasset"
+[2019.04.02-13.09.25:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2019.04.02-13.09.25:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2019.04.02-13.09.25:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2019.04.02-13.09.25:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2019.04.02-13.09.25:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2019.04.02-13.09.25:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2019.04.02-13.09.25:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2019.04.02-13.09.25:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2019.04.02-13.09.25:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2019.04.02-13.09.25:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2019.04.02-13.09.25:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2019.04.02-13.09.25:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/MaterialSphere.uasset"
+[2019.04.02-13.09.25:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_Bush.uasset"
+[2019.04.02-13.09.25:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_Chair.uasset"
+[2019.04.02-13.09.25:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2019.04.02-13.09.25:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_Couch.uasset"
+[2019.04.02-13.09.25:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_Door.uasset"
+[2019.04.02-13.09.25:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2019.04.02-13.09.25:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2019.04.02-13.09.25:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2019.04.02-13.09.25:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2019.04.02-13.09.25:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2019.04.02-13.09.25:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2019.04.02-13.09.25:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2019.04.02-13.09.25:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_Rock.uasset"
+[2019.04.02-13.09.25:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_Shelf.uasset"
+[2019.04.02-13.09.25:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_Stairs.uasset"
+[2019.04.02-13.09.25:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_Statue.uasset"
+[2019.04.02-13.09.25:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_TableRound.uasset"
+[2019.04.02-13.09.25:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2019.04.02-13.09.25:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2019.04.02-13.09.25:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2019.04.02-13.09.25:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2019.04.02-13.09.25:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2019.04.02-13.09.25:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2019.04.02-13.09.25:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2019.04.02-13.09.25:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2019.04.02-13.09.25:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2019.04.02-13.09.25:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2019.04.02-13.09.25:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2019.04.02-13.09.25:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2019.04.02-13.09.25:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2019.04.02-13.09.25:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2019.04.02-13.09.25:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2019.04.02-13.09.25:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2019.04.02-13.09.25:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2019.04.02-13.09.25:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2019.04.02-13.09.25:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2019.04.02-13.09.25:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2019.04.02-13.09.25:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2019.04.02-13.09.25:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2019.04.02-13.09.25:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2019.04.02-13.09.25:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2019.04.02-13.09.25:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2019.04.02-13.09.25:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2019.04.02-13.09.25:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2019.04.02-13.09.25:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2019.04.02-13.09.25:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2019.04.02-13.09.25:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2019.04.02-13.09.25:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2019.04.02-13.09.25:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2019.04.02-13.09.25:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2019.04.02-13.09.25:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2019.04.02-13.09.25:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2019.04.02-13.09.25:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2019.04.02-13.09.25:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2019.04.02-13.09.25:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2019.04.02-13.09.25:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2019.04.02-13.09.25:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2019.04.02-13.09.25:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2019.04.02-13.09.26:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2019.04.02-13.09.26:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2019.04.02-13.09.26:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2019.04.02-13.09.26:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2019.04.02-13.09.26:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2019.04.02-13.09.26:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2019.04.02-13.09.26:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2019.04.02-13.09.26:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2019.04.02-13.09.26:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2019.04.02-13.09.26:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2019.04.02-13.09.26:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2019.04.02-13.09.26:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2019.04.02-13.09.26:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2019.04.02-13.09.26:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2019.04.02-13.09.26:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2019.04.02-13.09.26:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2019.04.02-13.09.26:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2019.04.02-13.09.26:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2019.04.02-13.09.26:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2019.04.02-13.09.26:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2019.04.02-13.09.26:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2019.04.02-13.09.26:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2019.04.02-13.09.26:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2019.04.02-13.09.26:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2019.04.02-13.09.26:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2019.04.02-13.09.26:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2019.04.02-13.09.26:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2019.04.02-13.09.26:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2019.04.02-13.09.26:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2019.04.02-13.09.26:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2019.04.02-13.09.26:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Door_M.uasset"
+[2019.04.02-13.09.26:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Door_N.uasset"
+[2019.04.02-13.09.26:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2019.04.02-13.09.26:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2019.04.02-13.09.26:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2019.04.02-13.09.26:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2019.04.02-13.09.26:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2019.04.02-13.09.26:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2019.04.02-13.09.26:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2019.04.02-13.09.26:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2019.04.02-13.09.26:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2019.04.02-13.09.26:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2019.04.02-13.09.26:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2019.04.02-13.09.26:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2019.04.02-13.09.26:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2019.04.02-13.09.26:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2019.04.02-13.09.26:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2019.04.02-13.09.26:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2019.04.02-13.09.26:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2019.04.02-13.09.26:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2019.04.02-13.09.26:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2019.04.02-13.09.26:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2019.04.02-13.09.26:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2019.04.02-13.09.26:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2019.04.02-13.09.26:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2019.04.02-13.09.26:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2019.04.02-13.09.26:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2019.04.02-13.09.26:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2019.04.02-13.09.26:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2019.04.02-13.09.26:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2019.04.02-13.09.26:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2019.04.02-13.09.26:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2019.04.02-13.09.26:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2019.04.02-13.09.26:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2019.04.02-13.09.26:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2019.04.02-13.09.26:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2019.04.02-13.09.26:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2019.04.02-13.09.26:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2019.04.02-13.09.26:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2019.04.02-13.09.26:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2019.04.02-13.09.26:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2019.04.02-13.09.26:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2019.04.02-13.09.26:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2019.04.02-13.09.26:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2019.04.02-13.09.26:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2019.04.02-13.09.26:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2019.04.02-13.09.26:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2019.04.02-13.09.26:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2019.04.02-13.09.26:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2019.04.02-13.09.26:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2019.04.02-13.09.26:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2019.04.02-13.09.26:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2019.04.02-13.09.26:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2019.04.02-13.09.26:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Water_M.uasset"
+[2019.04.02-13.09.26:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Water_N.uasset"
+[2019.04.02-13.09.26:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2019.04.02-13.09.26:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2019.04.02-13.09.26:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2019.04.02-13.09.26:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2019.04.02-13.09.26:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2019.04.02-13.09.26:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2019.04.02-13.09.26:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2019.04.02-13.09.26:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2019.04.02-13.09.26:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2019.04.02-13.09.29:296][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2019.04.02-13.09.30:492][  0]LogStaticMesh: Built static mesh [1.61s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2019.04.02-13.09.34:308][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2019.04.02-13.09.35:844][  0]LogSavePackage: Moving '../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Saved/Floor_400x40029B619464F78111FDBEDC2B4A0AD1CEA.tmp' to '../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2019.04.02-13.09.36:014][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2019.04.02-13.09.36:017][  0]Cmd: MAP LOAD FILE="../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.02-13.09.36:017][  0]LightingResults: New page: Lighting Build
+[2019.04.02-13.09.36:018][  0]MapCheck: New page: Map Check
+[2019.04.02-13.09.36:018][  0]LightingResults: New page: Lighting Build
+[2019.04.02-13.09.37:145][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.04.02-13.09.37:488][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.02-13.09.37:571][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.02-13.09.37:571][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.087ms to complete.
+[2019.04.02-13.09.37:571][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.554
+[2019.04.02-13.09.39:767][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.02-13.09.39:828][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.02-13.09.39:833][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.02-13.09.39:838][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.02-13.09.40:072][  0]LogCollectionManager: Loaded 0 collections in 0.000736 seconds
+[2019.04.02-13.09.40:615][  0]LogFileCache: Scanning file cache for directory 'D:/Game Development/Unreal_EscapeGame/EscapeGame/Saved/Collections/' took 0.01s
+[2019.04.02-13.09.40:615][  0]LogFileCache: Scanning file cache for directory 'D:/Game Development/Unreal_EscapeGame/EscapeGame/Content/Developers/caleb/Collections/' took 0.01s
+[2019.04.02-13.09.40:616][  0]LogFileCache: Scanning file cache for directory 'D:/Game Development/Unreal_EscapeGame/EscapeGame/Content/Collections/' took 0.01s
+[2019.04.02-13.09.40:616][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.02-13.09.40:654][  0]LogContentBrowser: Native class hierarchy populated in 0.0377 seconds. Added 2652 classes and 622 folders.
+[2019.04.02-13.09.41:213][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.02-13.09.41:798][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:001][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:002][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:005][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:005][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:006][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:007][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:008][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:008][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:009][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:010][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:011][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:011][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:012][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:012][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:013][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:014][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:015][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:015][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:016][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:017][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:018][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.02-13.09.42:145][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.02-13.09.42:249][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.04.02-13.09.45:113][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.02-13.09.45:115][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.02-13.09.45:268][  0]LogSlate: Took 0.021230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.02-13.09.46:064][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.02-13.09.46:656][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.02-13.09.46:929][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.02-13.09.47:096][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.04.02-13.09.47:151][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.02-13.09.47:151][  0]LogLoad: (Engine Initialization) Total time: 31.01 seconds
+[2019.04.02-13.09.47:151][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.02-13.09.47:487][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.02-13.09.47:576][  1]LogAssetRegistry: Asset discovery search completed in 27.4222 seconds
+[2019.04.02-13.09.47:577][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.02-13.09.47:577][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2019.04.02-13.11.49:300][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-13.11.55:964][272]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.02-13.12.00:985][868]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.02-13.12.11:134][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2019.04.02-13.12.13:261][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2019.04.02-13.12.17:821][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.04.02-13.12.32:376][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.04.02-13.12.32:925][349]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.04.02-13.12.45:113][784]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.02-13.12.55:914][375]LogSlate: Window 'New Level' being destroyed
+[2019.04.02-13.13.02:753][375]LogSlate: Window 'Save Content' being destroyed
+[2019.04.02-13.13.02:757][375]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.02-13.13.02:759][375]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.02-13.13.02:766][375]LightingResults: New page: Lighting Build
+[2019.04.02-13.13.02:767][375]LoadErrors: New page: Loading map: Template_Default.umap
+[2019.04.02-13.13.02:841][375]MapCheck: New page: Map Check
+[2019.04.02-13.13.02:841][375]LightingResults: New page: Lighting Build
+[2019.04.02-13.13.02:883][375]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-13.13.02:937][375]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.02-13.13.02:986][375]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.02-13.13.02:986][375]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.09ms to complete.
+[2019.04.02-13.13.02:986][375]LogFileHelpers: Loading map 'Template_Default' took 0.229
+[2019.04.02-13.13.27:662][570]LogSlate: Window 'Save Level As' being destroyed
+[2019.04.02-13.13.27:820][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.02-13.13.28:398][570]LogSavePackage: Moving '../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Saved/NewMap717740F54B9717956F2264A03004E072.tmp' to '../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/NewMap.umap'
+[2019.04.02-13.13.28:474][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/NewMap_BuiltData.uasset" SILENT=true
+[2019.04.02-13.13.28:513][570]LogSavePackage: Moving '../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Saved/NewMap_BuiltData5F068AD14513E0364079D687EAC2DA40.tmp' to '../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/NewMap_BuiltData.uasset'
+[2019.04.02-13.13.28:519][570]LogFileHelpers: Saving map 'NewMap' took 0.793
+[2019.04.02-13.13.28:520][570]Cmd: MAP LOAD FILE="../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.02-13.13.28:525][570]LightingResults: New page: Lighting Build
+[2019.04.02-13.13.28:525][570]LoadErrors: New page: Loading map: NewMap.umap
+[2019.04.02-13.13.28:525][570]MapCheck: New page: Map Check
+[2019.04.02-13.13.28:526][570]LightingResults: New page: Lighting Build
+[2019.04.02-13.13.28:561][570]LogAIModule: Creating AISystem for world NewMap
+[2019.04.02-13.13.28:566][570]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.02-13.13.28:599][570]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.02-13.13.28:600][570]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.082ms to complete.
+[2019.04.02-13.13.28:600][570]LogFileHelpers: Loading map 'NewMap' took 0.080
+[2019.04.02-13.13.42:647][929]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.EscapeGame
+[2019.04.02-13.13.42:647][929]LogTemp: CWD: D:\Games\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.02-13.13.42:647][929]LogTemp: Initial Dir: D:\Games\Epic Games\UE_4.21
+[2019.04.02-13.13.42:647][929]LogTemp: Env CWD: D:\Games\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.02-13.13.42:647][929]LogTemp: BranchPath = KADRAZA-PC/D/Games/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = KADRAZA-PC/D/Games/Epic Games/UE_4.21/Engine/Binaries
+[2019.04.02-13.13.42:647][929]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\caleb\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.02-13.13.42:647][929]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.02-13.13.45:558][240]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/EscapeGame.EscapeGameGameMode'
+[2019.04.02-13.13.53:341][138]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.02-13.13.53:344][138]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.02-13.14.25:994][890]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
+[2019.04.02-13.15.22:242][249]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-13.15.31:818][314]LogActorFactory: Actor Factory created SM_Chair
+[2019.04.02-13.15.33:900][551]LogActorFactory: Actor Factory created SM_Chair
+[2019.04.02-13.15.45:420][893]Cmd: TRANSACTION UNDO
+[2019.04.02-13.15.45:420][893]LogEditorTransaction: Undo Rotate Actors
+[2019.04.02-13.15.47:353][ 98]Cmd: TRANSACTION UNDO
+[2019.04.02-13.15.47:353][ 98]LogEditorTransaction: Undo Rotate Actors
+[2019.04.02-13.16.16:397][577]Cmd: TRANSACTION UNDO
+[2019.04.02-13.16.16:397][577]LogEditorTransaction: Undo Scale Actors
+[2019.04.02-13.16.42:242][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-13.16.42:431][532]LogActorFactory: Actor Factory created SM_TableRound
+[2019.04.02-13.16.43:231][625]LogActorFactory: Actor Factory created SM_TableRound
+[2019.04.02-13.16.43:862][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.04.02-13.16.51:524][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-13.16.51:708][620]LogActorFactory: Actor Factory created MaterialSphere
+[2019.04.02-13.16.52:203][676]LogActorFactory: Actor Factory created MaterialSphere
+[2019.04.02-13.16.54:956][  1]Cmd: DELETE
+[2019.04.02-13.16.54:956][  1]Cmd: ACTOR DELETE
+[2019.04.02-13.16.55:259][  1]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.04.02-13.16.55:280][  1]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2019.04.02-13.16.56:587][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-13.16.57:378][238]LogActorFactory: Actor Factory created SM_Rock
+[2019.04.02-13.16.59:445][485]LogActorFactory: Actor Factory created SM_Rock
+[2019.04.02-13.17.01:630][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-13.17.53:351][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-13.17.58:803][462]Cmd: DELETE
+[2019.04.02-13.17.58:803][462]Cmd: ACTOR DELETE
+[2019.04.02-13.17.58:823][462]LogEditorActor: Deleted Actor: Character
+[2019.04.02-13.17.58:843][462]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.04.02-13.18.11:305][247]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-13.18.11:701][248]LogRenderer: Reallocating scene render targets to support 1208x924 Format 10 NumSamples 1 (Frame:26778).
+[2019.04.02-13.18.24:510][678]LogSlate: Window 'Tutorials' being destroyed
+[2019.04.02-13.18.51:525][916]LogUObjectGlobals: Warning: Failed to find object 'Object None.ActorDetails'
+[2019.04.02-13.19.13:116][501]LogSlate: Window 'Tutorials' being destroyed
+[2019.04.02-13.19.13:120][501]LogSlate: Window 'Tutorials' being destroyed
+[2019.04.02-13.19.17:808][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.02-13.19.17:946][ 62]LogSavePackage: Moving '../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Saved/NewMapB719ADD04550B1D4FF283F89B1B299E3.tmp' to '../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/NewMap.umap'
+[2019.04.02-13.19.17:965][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/NewMap_BuiltData.uasset" SILENT=true
+[2019.04.02-13.19.17:982][ 62]LogSavePackage: Moving '../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Saved/NewMap_BuiltData729CD17F4AA6F745E30317A6D57F5A45.tmp' to '../../../../../../Game Development/Unreal_EscapeGame/EscapeGame/Content/NewMap_BuiltData.uasset'
