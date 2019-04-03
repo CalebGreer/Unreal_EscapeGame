@@ -1,17 +1,4 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Game Development\Unreal_EscapeGame).
-  Creating makefile for hot reloading EscapeGameEditor (source directory changed)
-  Compiling game modules for hot reload
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for EscapeGameEditor
-    Running UnrealHeaderTool "D:\Game Development\Unreal_EscapeGame\EscapeGame\EscapeGame.uproject" "D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\EscapeGameEditor\Development\EscapeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for EscapeGameEditor in 7.6147724 seconds
-  Building 5 actions with 12 processes...
-    [1/5] EscapeGame.init.gen.cpp
-    [2/5] OpenDoor.gen.cpp
-    [3/5] OpenDoor.cpp
-    [4/5] UE4Editor-EscapeGame-1851.lib
-       Creating library D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-1851.lib and object D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-1851.exp
-    [5/5] UE4Editor-EscapeGame-1851.dll
-       Creating library D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-1851.suppressed.lib and object D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-1851.suppressed.exp
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\greerc\Documents\Unreal Projects\Unreal_EscapeGame).
+  Target is up to date
   Deploying EscapeGameEditor Win64 Development...
-  Total build time: 13.58 seconds (Parallel executor: 1.59 seconds)
+  Total build time: 1.39 seconds (NoActionsToExecute executor: 0.00 seconds)

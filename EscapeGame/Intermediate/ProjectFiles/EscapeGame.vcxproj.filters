@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EscapeGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{59AAB795-37B9-498F-949D-6E8476745CD7}</UniqueIdentifier>
+      <UniqueIdentifier>{807C14C8-9111-4470-9C27-D3BE09D64BF7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D5767EDB-60FE-45D8-B726-8C75DAE3A508}</UniqueIdentifier>
+      <UniqueIdentifier>{3645B932-83A9-409E-9902-9BB2FE1B1A61}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\EscapeGame">
-      <UniqueIdentifier>{1BE7E0E8-4CF3-4138-9319-CDF96B10A61A}</UniqueIdentifier>
+      <UniqueIdentifier>{DB6C3C99-617D-4766-A95F-5F29B8194A06}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeGame\EscapeGame.Build.cs">
       <Filter>Source\EscapeGame</Filter>
@@ -41,20 +41,26 @@
     <ClInclude Include="..\..\Source\EscapeGame\EscapeGameGameModeBase.h">
       <Filter>Source\EscapeGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\EscapeGame\PositionReporter.h">
+    <ClCompile Include="..\..\Source\EscapeGame\OpenDoor.cpp">
       <Filter>Source\EscapeGame</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClInclude Include="..\..\Source\EscapeGame\OpenDoor.h">
       <Filter>Source\EscapeGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\EscapeGame\PositionReporter.cpp">
       <Filter>Source\EscapeGame</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\EscapeGame\OpenDoor.cpp">
+    <ClInclude Include="..\..\Source\EscapeGame\PositionReporter.h">
+      <Filter>Source\EscapeGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\EscapeGame\Grabber.h">
+      <Filter>Source\EscapeGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\EscapeGame\Grabber.cpp">
       <Filter>Source\EscapeGame</Filter>
     </ClCompile>
   </ItemGroup>
