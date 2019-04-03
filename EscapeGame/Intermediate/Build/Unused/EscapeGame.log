@@ -2,11 +2,16 @@
   Creating makefile for hot reloading EscapeGameEditor (source directory changed)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 12 processes...
-    [1/3] PositionReporter.cpp
-    [2/3] UE4Editor-EscapeGame-3893.lib
-       Creating library D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-3893.lib and object D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-3893.exp
-    [3/3] UE4Editor-EscapeGame-3893.dll
-       Creating library D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-3893.suppressed.lib and object D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-3893.suppressed.exp
+  Parsing headers for EscapeGameEditor
+    Running UnrealHeaderTool "D:\Game Development\Unreal_EscapeGame\EscapeGame\EscapeGame.uproject" "D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\EscapeGameEditor\Development\EscapeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for EscapeGameEditor in 7.6147724 seconds
+  Building 5 actions with 12 processes...
+    [1/5] EscapeGame.init.gen.cpp
+    [2/5] OpenDoor.gen.cpp
+    [3/5] OpenDoor.cpp
+    [4/5] UE4Editor-EscapeGame-1851.lib
+       Creating library D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-1851.lib and object D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-1851.exp
+    [5/5] UE4Editor-EscapeGame-1851.dll
+       Creating library D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-1851.suppressed.lib and object D:\Game Development\Unreal_EscapeGame\EscapeGame\Intermediate\Build\Win64\UE4Editor\Development\EscapeGame\UE4Editor-EscapeGame-1851.suppressed.exp
   Deploying EscapeGameEditor Win64 Development...
-  Total build time: 5.35 seconds (Parallel executor: 1.18 seconds)
+  Total build time: 13.58 seconds (Parallel executor: 1.59 seconds)
