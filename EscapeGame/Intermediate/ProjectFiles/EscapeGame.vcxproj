@@ -499,7 +499,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\EscapeGame-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\EscapeGame\OpenDoor.cpp" />
     <ClCompile Include="..\..\Source\EscapeGame\PositionReporter.cpp" />
+    <ClInclude Include="..\..\Source\EscapeGame\OpenDoor.h" />
     <ClInclude Include="..\..\Source\EscapeGame\PositionReporter.h" />
     <None Include="..\..\EscapeGame.uproject" />
     <None Include="..\..\Source\EscapeGame.Target.cs" />

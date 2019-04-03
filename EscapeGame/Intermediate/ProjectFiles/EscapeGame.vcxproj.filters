@@ -46,9 +46,15 @@
     <ClInclude Include="..\..\Source\EscapeGame\PositionReporter.h">
       <Filter>Source\EscapeGame</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\EscapeGame\OpenDoor.h">
+      <Filter>Source\EscapeGame</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\EscapeGame\PositionReporter.cpp">
+      <Filter>Source\EscapeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EscapeGame\OpenDoor.cpp">
       <Filter>Source\EscapeGame</Filter>
     </ClCompile>
   </ItemGroup>
