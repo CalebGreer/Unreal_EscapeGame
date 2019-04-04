@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EscapeGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C9F1AECD-E57C-4B5C-B51B-6078F8EB4428}</UniqueIdentifier>
+      <UniqueIdentifier>{8B787ADE-8EA6-4CD1-96DB-DDC6393DAE03}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3312C416-216E-44B5-A230-ABAA1877B868}</UniqueIdentifier>
+      <UniqueIdentifier>{5B8D01FA-A9CD-45E5-8830-585AC9F7E9CE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\EscapeGame">
-      <UniqueIdentifier>{90F9F9BC-6121-4312-8949-E6F24F79273B}</UniqueIdentifier>
+      <UniqueIdentifier>{AF2B6787-D340-4C78-BDB2-6E37D4FE8C05}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeGame\EscapeGame.Build.cs">
       <Filter>Source\EscapeGame</Filter>
