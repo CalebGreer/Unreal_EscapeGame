@@ -33,21 +33,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	/// Get player view point this tick
-	FVector PlayerViewPointLocation;
-	FRotator PlayerViewPointRotation;
-	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
-		OUT PlayerViewPointLocation,
-		OUT PlayerViewPointRotation
-	);
-
-	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
-
+	if (!PhysicsHandle) { return; }
 	// if the physics handle is attached
 	if (PhysicsHandle->GrabbedComponent)
 	{
 		// move the object that we're holding
-		PhysicsHandle->SetTargetLocation(LineTraceEnd);
+		PhysicsHandle->SetTargetLocation(GetLineTracePoints().v2);
 	}	
 }
 
@@ -116,36 +107,31 @@ void UGrabber::SetupInputComponent()
 
 FHitResult UGrabber::GetFirstPhysicsBodyInReach() const
 {
-	/// Get player view point this tick
-	FVector PlayerViewPointLocation;
-	FRotator PlayerViewPointRotation;
-	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
-		OUT PlayerViewPointLocation,
-		OUT PlayerViewPointRotation
-	);
-
-	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
-
-	/// Setup query parameters
-	FCollisionQueryParams TraceParameters(FName(TEXT("")), false, GetOwner());
-
 	/// Line-trace (AKA Ray-cast) out to reach distance
-	FHitResult Hit;
+	FHitResult HitResult;
+	FCollisionQueryParams TraceParameters(FName(TEXT("")), false, GetOwner());
+	FTwoVectors TracePoints = GetLineTracePoints();
+	// with C++17
+	// auto [Start, End] = GetLineTracePoints();
 	GetWorld()->LineTraceSingleByObjectType(
-		OUT Hit,
-		PlayerViewPointLocation,
-		LineTraceEnd,
+		OUT HitResult,
+		TracePoints.v1,
+		TracePoints.v2,
 		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
 		TraceParameters
 	);
+	return HitResult;
+}
 
-	/// See what we hit
-	AActor* ActorHit = Hit.GetActor();
-	if (ActorHit)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Line trace hit: %s"), *(ActorHit->GetName()));
-	}
-
-	return Hit;
+FTwoVectors UGrabber::GetLineTracePoints() const
+{
+	FVector StartLocation;
+	FRotator PlayerViewPointRotation;
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+		OUT StartLocation,
+		OUT PlayerViewPointRotation
+	);
+	FVector EndLocation = StartLocation + PlayerViewPointRotation.Vector() * Reach;
+	return FTwoVectors(StartLocation, EndLocation);
 }
 
