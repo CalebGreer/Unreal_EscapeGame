@@ -54,7 +54,8 @@ void UGrabber::Grab()
 	/// if we hit something then attach a physics handle
 	if (ActorHit != nullptr)
 	{
-		// TODO attach physics handle
+		if (!PhysicsHandle) { return; }
+
 		PhysicsHandle->GrabComponentAtLocationWithRotation(
 			ComponentToGrab,
 			NAME_None,
@@ -66,6 +67,8 @@ void UGrabber::Grab()
 
 void UGrabber::Release()
 {
+	if (!PhysicsHandle) { return; }
+
 	UE_LOG(LogTemp, Warning, TEXT("Grab released"));
 	PhysicsHandle->ReleaseComponent();
 }
@@ -75,11 +78,7 @@ void UGrabber::FindPhysicsHandleComponent()
 {
 	/// Look for attached Physics Handle
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
-	if (PhysicsHandle)
-	{
-		// Physics handle is found
-	}
-	else
+	if (PhysicsHandle == nullptr)
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *GetOwner()->GetName());
 	}
