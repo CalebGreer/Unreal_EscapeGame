@@ -13,9 +13,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ESCAPEGAME_OpenDoor_generated_h
 
-#define EscapeGame_Source_EscapeGame_OpenDoor_h_13_RPC_WRAPPERS
-#define EscapeGame_Source_EscapeGame_OpenDoor_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define EscapeGame_Source_EscapeGame_OpenDoor_h_13_INCLASS_NO_PURE_DECLS \
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_10_DELEGATE \
+static inline void FDoorEvent_DelegateWrapper(const FMulticastScriptDelegate& DoorEvent) \
+{ \
+	DoorEvent.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_15_RPC_WRAPPERS
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUOpenDoor(); \
 	friend struct Z_Construct_UClass_UOpenDoor_Statics; \
@@ -24,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(UOpenDoor)
 
 
-#define EscapeGame_Source_EscapeGame_OpenDoor_h_13_INCLASS \
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUOpenDoor(); \
 	friend struct Z_Construct_UClass_UOpenDoor_Statics; \
@@ -33,7 +40,7 @@ public: \
 	DECLARE_SERIALIZER(UOpenDoor)
 
 
-#define EscapeGame_Source_EscapeGame_OpenDoor_h_13_STANDARD_CONSTRUCTORS \
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOpenDoor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOpenDoor) \
@@ -46,7 +53,7 @@ private: \
 public:
 
 
-#define EscapeGame_Source_EscapeGame_OpenDoor_h_13_ENHANCED_CONSTRUCTORS \
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UOpenDoor(UOpenDoor&&); \
@@ -57,31 +64,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UOpenDoor)
 
 
-#define EscapeGame_Source_EscapeGame_OpenDoor_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__OpenAngle() { return STRUCT_OFFSET(UOpenDoor, OpenAngle); } \
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenDoor, PressurePlate); } \
-	FORCEINLINE static uint32 __PPO__DoorCloseDelay() { return STRUCT_OFFSET(UOpenDoor, DoorCloseDelay); }
+	FORCEINLINE static uint32 __PPO__TriggerMass() { return STRUCT_OFFSET(UOpenDoor, TriggerMass); }
 
 
-#define EscapeGame_Source_EscapeGame_OpenDoor_h_10_PROLOG
-#define EscapeGame_Source_EscapeGame_OpenDoor_h_13_GENERATED_BODY_LEGACY \
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_12_PROLOG
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	EscapeGame_Source_EscapeGame_OpenDoor_h_13_PRIVATE_PROPERTY_OFFSET \
-	EscapeGame_Source_EscapeGame_OpenDoor_h_13_RPC_WRAPPERS \
-	EscapeGame_Source_EscapeGame_OpenDoor_h_13_INCLASS \
-	EscapeGame_Source_EscapeGame_OpenDoor_h_13_STANDARD_CONSTRUCTORS \
+	EscapeGame_Source_EscapeGame_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
+	EscapeGame_Source_EscapeGame_OpenDoor_h_15_RPC_WRAPPERS \
+	EscapeGame_Source_EscapeGame_OpenDoor_h_15_INCLASS \
+	EscapeGame_Source_EscapeGame_OpenDoor_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define EscapeGame_Source_EscapeGame_OpenDoor_h_13_GENERATED_BODY \
+#define EscapeGame_Source_EscapeGame_OpenDoor_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	EscapeGame_Source_EscapeGame_OpenDoor_h_13_PRIVATE_PROPERTY_OFFSET \
-	EscapeGame_Source_EscapeGame_OpenDoor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	EscapeGame_Source_EscapeGame_OpenDoor_h_13_INCLASS_NO_PURE_DECLS \
-	EscapeGame_Source_EscapeGame_OpenDoor_h_13_ENHANCED_CONSTRUCTORS \
+	EscapeGame_Source_EscapeGame_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
+	EscapeGame_Source_EscapeGame_OpenDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	EscapeGame_Source_EscapeGame_OpenDoor_h_15_INCLASS_NO_PURE_DECLS \
+	EscapeGame_Source_EscapeGame_OpenDoor_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
